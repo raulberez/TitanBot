@@ -7,6 +7,7 @@
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
     "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix",
     "migrate": "node src/database/migrate.js",
     "migrate:rollback": "node src/database/migrate.js rollback"
   },
@@ -15,7 +16,7 @@
     "bot",
     "titanbot"
   ],
-  "author": "",
+  "author": "personal fork",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^14.14.1",
