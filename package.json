@@ -36,6 +36,7 @@
   "nodemonConfig": {
     "watch": ["src"],
     "ext": "js,json",
-    "delay": 1000
+    "delay": 500,
+    "ignore": ["src/logs/*"]
   }
 }
